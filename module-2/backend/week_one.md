@@ -29,8 +29,11 @@ Note: When you're done, submit a PR.
     erb :index
   end
   ```
-
+  Don't understand the question.  Am I modifying the code as well as showing what would go in the index? Here is my guess:
+  <p>Horse Total: <%= horse.total_count %></p>
 8. In the same code block, how would I pass a local variable `name` with a value of `Mr. Ed` to the view?
+  Are we filling out a form? Are we visiting single horse's page? Guess:
+  <p>Name: <%= horse.name %></p>
 9. What's the purpose of ERB?
   ERB is Embeded RuBy, a template for Ruby, allowing Ruby code to be added directly to plain text docs.
 10. Why do I need a development AND test database?
@@ -40,6 +43,8 @@ Note: When you're done, submit a PR.
 12. What does HTTP stand for?
   HyperText Transfer Protocol
 13. What are the two ways to interpolate Ruby in an ERB view template? What's the difference between these two ways?
+  Instance Variable - Easier to read
+  Scope - Can mix with other scopes
 14. What's an ORM?
   Object Relational Mapping
 15. What's the most commonly used ORM in ruby (Sinatra & Rails)?
@@ -87,14 +92,15 @@ Inheritance   - Allow one class to use another's methods
 ### Self Assessment:
 Choose One:
 * I was able to answer every question without relying on outside resources
-* I was able to answer most questions independently, but utilized outside resources for a few
 
-[{"* I was able to answer a few questions independently, but relied heavily on outside resources"}]
+[{"* I was able to answer most questions independently, but utilized outside resources for a few"}]
+
+* I was able to answer a few questions independently, but relied heavily on outside resources
 
 Choose One:
 * I feel confident about the content presented this week
-* I feel comfortable with the content presented this week
 
-[{"* I feel overwhelmed by the content presented this week"}]
+[{"* I feel comfortable with the content presented this week"}]
 
+* I feel overwhelmed by the content presented this week
 * I feel quite lost by the content presented this week
